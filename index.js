@@ -3,15 +3,6 @@ function newTask(title, description) {
   const task = {
     title: title,
     description: description,
-    complete: false
-  };
-  return task;
-}
-
-function newTask(title, description) {
-  const task = {
-    title: title,
-    description: description,
     complete: false,
 
     logState: function() {
